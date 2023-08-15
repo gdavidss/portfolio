@@ -6,6 +6,13 @@
     font-weight: 100;
     font-style: normal;
 }*/
+
+@font-face {
+  font-family: 'Input Mono';
+  src: url('./Input_Fonts/InputMono/InputMono/InputMono-Regular.ttf') format('truetype');
+}
+
+
 @font-face {
   font-family: 'Spartan MB';
   src: url("/static/fonts/SpartanMB-Bold.woff2") format("woff2"), url("/static/fonts/SpartanMB-Bold.woff") format("woff");
@@ -47,7 +54,14 @@
   font-style: normal;
 }
 
+
 */
+
+section img{
+  max-width: 100%;  
+  height: auto;    
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -91,7 +105,7 @@ html {
     font-size: 20px; }
 
 h1 {
-  font-family: "Spartan MB", "Avenir", "Futura", sans-serif;
+  font-family:  "Spartan MB", "Avenir", "Futura", sans-serif;
   font-weight: 700; }
   @media screen and (min-width: 1024px) {
     h1 {
